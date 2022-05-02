@@ -1,0 +1,7 @@
+{
+  "name": "PenPals",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
