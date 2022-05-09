@@ -1,0 +1,26 @@
+.login-bottom {
+    width: 100%;
+    height: auto;
+    bottom: 0%;
+    position: absolute;
+    background-color: #F5FDCE;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    padding: 1%;
+}
+
+.login-label {
+    padding: 7%;
+    background-color: #F5FDCE;
+    border-radius: 5%;
+}
+
+.content {
+    align-items: center;
+    align-content: center;
+}
+
+ion-content {
+    --background: none;
+    background-image: url(https://images.unsplash.com/photo-1579373791421-d7b4b6dfb8b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80);
+}

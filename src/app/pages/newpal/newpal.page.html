@@ -1,0 +1,59 @@
+<ion-content>
+  <ion-item class="pal-title" color="tertiary">
+    <h1 class="pal-title-text">Traits For a New Pal:</h1>
+  </ion-item>
+  <ion-item>
+    <h3 class="age-title">Age Range</h3>
+  </ion-item>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <ion-item>
+          <ion-label>From</ion-label>
+          <ion-select interface="popover">
+            <ion-select-option value="age1">17-19</ion-select-option>
+            <ion-select-option value="age2">20-25</ion-select-option>
+            <ion-select-option value="age3">26-30</ion-select-option>
+            <ion-select-option value="age4">30+</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+      <ion-col col-6>
+        <ion-item>
+          <ion-label>To</ion-label>
+          <ion-select interface="popover">
+            <ion-select-option value="age1">17-19</ion-select-option>
+            <ion-select-option value="age2">20-25</ion-select-option>
+            <ion-select-option value="age3">26-30</ion-select-option>
+            <ion-select-option value="age4">30+</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <br>
+  <ion-item>
+    <h3 class="age-title">Bad Topic</h3>
+  </ion-item>
+  <ion-item>
+    <ion-label>Topic</ion-label>
+    <ion-select interface="popover">
+      <ion-select-option value="sports">Sports</ion-select-option>
+      <ion-select-option value="art">Art</ion-select-option>
+      <ion-select-option value="gaming">Gaming</ion-select-option>
+      <ion-select-option value="music">Music</ion-select-option>
+      <ion-select-option value="reading">Reading</ion-select-option>
+      <ion-select-option value="movies">Movies</ion-select-option>
+      <ion-select-option value="pets">Pets</ion-select-option>
+      <ion-select-option value="photography">Photography</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <br>
+  <br>
+  <ion-button expand="block" fill="clear" (click)="takePalRequest()">
+    <ion-icon name="mail" class="button-size"></ion-icon>
+  </ion-button >
+  <ion-button fill="clear" size="large" class="back-button" href="/home">
+    <ion-icon name="arrow-back-circle" class="back-button-icon"></ion-icon>
+  </ion-button>
+</ion-content>

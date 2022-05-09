@@ -1,0 +1,69 @@
+<ion-content>
+  <ion-card class="signup-form" color="tertiary">
+    <h2>Please input your information:</h2>
+    <br>
+    <ion-input placeholder="Username" type="username"></ion-input>
+    <br />
+    <ion-input placeholder="Email" type="email"></ion-input>
+    <br />
+    <ion-input placeholder="Password" type="password"></ion-input>
+    <br />
+    <ion-input placeholder="Repeat Password" type="password"></ion-input>
+    <br>
+    <ion-item>
+      <ion-label>Age Group</ion-label>
+      <ion-select interface="popover">
+        <ion-select-option value="age1">17-19</ion-select-option>
+        <ion-select-option value="age2">20-25</ion-select-option>
+        <ion-select-option value="age3">26-30</ion-select-option>
+        <ion-select-option value="age4">30+</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label>Continent</ion-label>
+      <ion-select interface="popover">
+        <ion-select-option value="africa">Africa</ion-select-option>
+        <ion-select-option value="asia">Asia</ion-select-option>
+        <ion-select-option value="australia">Australia</ion-select-option>
+        <ion-select-option value="europe">Europe</ion-select-option>
+        <ion-select-option value="namerica">North-America</ion-select-option>
+        <ion-select-option value="samerica">South-America</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label>Topic 1</ion-label>
+      <ion-select interface="popover">
+        <ion-select-option value="sports">Sports</ion-select-option>
+        <ion-select-option value="art">Art</ion-select-option>
+        <ion-select-option value="gaming">Gaming</ion-select-option>
+        <ion-select-option value="music">Music</ion-select-option>
+        <ion-select-option value="reading">Reading</ion-select-option>
+        <ion-select-option value="movies">Movies</ion-select-option>
+        <ion-select-option value="pets">Pets</ion-select-option>
+        <ion-select-option value="photography">Photography</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label>Topic 2</ion-label>
+      <ion-select interface="popover">
+        <ion-select-option value="sports">Sports</ion-select-option>
+        <ion-select-option value="art">Art</ion-select-option>
+        <ion-select-option value="gaming">Gaming</ion-select-option>
+        <ion-select-option value="music">Music</ion-select-option>
+        <ion-select-option value="reading">Reading</ion-select-option>
+        <ion-select-option value="movies">Movies</ion-select-option>
+        <ion-select-option value="pets">Pets</ion-select-option>
+        <ion-select-option value="photography">Photography</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <br>
+    <br>
+    <ion-button expand="block" color="secondary" (click)="signUpAlert()">Sign Up</ion-button>
+    <ion-button fill="clear" size="large" class="back-button" href="/login">
+      <ion-icon name="arrow-back-circle" class="back-button-icon"></ion-icon>
+    </ion-button>
+  </ion-card>
+</ion-content>
